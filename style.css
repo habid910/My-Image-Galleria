@@ -1,0 +1,79 @@
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+.banner{
+
+    background-image: url(img/japan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.banner-name{
+   
+    background-color: rgba(26, 26, 26,0.7);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+   
+   
+}
+
+ h1,p{
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2em; 
+    text-align: center;
+}
+
+h1{
+    animation-name: pepe;
+    animation-duration: 4s;
+}
+
+.row{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+}
+
+ img {
+     height:250px;
+     width: 250px;
+     margin: 1.5em;
+     padding: 1.5em;
+     box-shadow: -28px 2px 32px 7px rgba(0,0,0,0.71);
+     -webkit-box-shadow: -28px 2px 32px 7px rgba(0,0,0,0.71);
+     -moz-box-shadow: -28px 2px 32px 7px rgba(0,0,0,0.71);
+     margin-left: 6.5em;
+     margin-right: 6.5em;
+     background-color: honeydew;
+     
+ } 
+
+@keyframes pepe {
+    from, 33%, 66%, to { transform: rotate(4deg) }
+    16%, 50%, 83% { transform: rotate(-4deg) }
+}
+
+img:hover { 
+    animation: hu__hu__ infinite 2s ease-in-out 
+}
+
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}
+
